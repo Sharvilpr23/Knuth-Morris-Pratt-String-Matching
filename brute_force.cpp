@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include "includes.h"
 
 using namespace std;
 
@@ -29,17 +28,4 @@ bool kmp_brute_force(string s, string p)
         i += 1;
     }
     return false;
-}
-
-int main()
-{
-    string s = "adsgwadsxdsgadsgz";
-    string p = "dsgwadsgz";
-
-    if (kmp_brute_force(s, p))
-        cout << "Pattern Found\n";
-    else
-        cout << "Pattern not Found\n";
-    
-    return 0;
 }

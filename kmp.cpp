@@ -1,8 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <string>
+#include "includes.h"
 
-using namespace std;
+using namespace std; 
 
 vector<int> find_prefix_suffix(string p) {
     vector<int> prefix_suffix_table(p.size());
@@ -30,18 +28,14 @@ bool optimized_kmp(string s, string p)
     int n = s.length();
     int m = p.length();
 
+    // Every string contains an empty string
+    if (m == 0)
+        return true;
+
     vector<int> prefix_suffix_table = find_prefix_suffix(p);
-    
-    for(int i = 0; i < prefix_suffix_table.size(); i++)
-    {
-        cout << prefix_suffix_table[i] << " ";
-    }
-    cout << endl;
 
     for(int i = 0; i < n; i++)
-    {
-        cout << "( " << i << ", " << j  << " )" << endl;
-        
+    {   
         if(s[i] == p[j])
         {
             j += 1;
@@ -56,16 +50,4 @@ bool optimized_kmp(string s, string p)
             return true;
     }
     return false;
-}
-
-int main()
-{
-    string s; 
-    string p;
-
-    if(optimized_kmp(s, p))
-        cout << "Pattern found\n";
-    else
-        cout << "Pattern not found\n";
-    return 0;
 }
