@@ -1,63 +1,66 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-labore et dolore magna aliqua. Orci nulla pellentesque
-dignissim enim sit amet. At quis risus sed vulputate odio ut. Morbi tincidunt ornare
-massa eget egestas purus viverra accumsan in. Ipsum a arcu cursus vitae congue mauris.
-Fermentum leo vel orci porta non pulvinar neque. Volutpat commodo sed egestas egestas.
-Aliquam nulla facilisi cras fermentum odio eu. Pellentesque nec nam aliquam sem et 
-tortor consequat id porta. Blandit aliquam etiam erat velit. Nisl pretium fusce id velit
-ut tortor pretium. Aliquam sem et tortor consequat id porta.\n
-Eget arcu dictum varius duis at consectetur. Volutpat sed cras ornare arcu dui vivamus
-arcu felis. Aenean euismod elementum nisi quis eleifend quam adipiscing. Nisl rhoncus 
-mattis rhoncus urna neque viverra. Et netus et malesuada fames ac. Id eu nisl nunc mi ipsum.
-Magna eget est lorem ipsum dolor sit amet. Tellus in metus vulputate eu scelerisque felis
-imperdiet. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Sagittis eu volutpat
-odio facilisis mauris sit. Pulvinar neque laoreet suspendisse interdum. Donec et odio
-pellentesque diam.\n
-Dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Sem fringilla ut morbi
-tincidunt augue interdum. Vitae sapien pellentesque habitant morbi tristique senectus.
-Pharetra diam sit amet nisl. In metus vulputate eu scelerisque felis imperdiet. Cras
-semper auctor neque vitae tempus. Velit euismod in pellentesque massa placerat duis
-ultricies lacus. Neque viverra justo nec ultrices dui sapien eget mi proin. Ornare
-lectus sit amet est placerat in egestas erat. Nulla facilisi nullam vehicula ipsum
-a arcu cursus vitae congue. Urna et pharetra pharetra massa massa ultricies mi quis.\n
-Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Tellus molestie 
-nunc non blandit massa enim nec. Lobortis scelerisque fermentum dui faucibus in ornare
-quam viverra. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum.
-Sodales neque sodales ut etiam sit. Sed pulvinar proin gravida hendrerit lectus. Non
-sodales neque sodales ut etiam sit amet nisl. Amet consectetur adipiscing elit ut aliquam
-purus sit. Leo urna molestie at elementum eu facilisis sed odio morbi. Orci sagittis eu
-volutpat odio facilisis mauris sit amet.\n
-Convallis posuere morbi leo urna molestie at elementum eu. Justo laoreet sit amet cursus
-sit amet dictum sit amet. Tellus in metus vulputate eu scelerisque. Sagittis vitae et
-leo duis ut diam quam nulla. Quis risus sed vulputate odio ut enim blandit. Sapien et
-ligula ullamcorper malesuada. Augue lacus viverra vitae congue eu. Enim diam vulputate
-ut pharetra sit amet aliquam. Consectetur lorem donec massa sapien faucibus et molestie
-ac. Posuere morbi leo urna molestie at elementum. Ultrices dui sapien eget mi proin. 
-Nunc lobortis mattis aliquam faucibus purus in massa. Eget mi proin sed libero enim sed.
-Auctor urna nunc id cursus. Scelerisque varius morbi enim nunc. Euismod elementum nisi 
-quis eleifend quam.\n
-Urna et pharetra pharetra massa massa ultricies mi quis. Molestie at elementum eu 
-facilisis sed odio morbi quis commodo. Varius morbi enim nunc faucibus a pellentesque sit
-amet. Morbi quis commodo odio aenean sed adipiscing diam. Senectus et netus et malesuada
-fames ac. Tincidunt eget nullam non nisi est sit amet facilisis. Nullam non nisi est sit
-amet facilisis magna etiam. Fames ac turpis egestas sed. Vestibulum sed arcu non odio
-euismod. Dui faucibus in ornare quam viverra orci.\n
-Massa tempor nec feugiat nisl pretium. Quam quisque id diam vel quam. Eu tincidunt tortor 
-aliquam nulla facilisi cras. Lacus suspendisse faucibus interdum posuere. Massa id neque 
-aliquam vestibulum morbi. Interdum consectetur libero id faucibus nisl tincidunt eget. 
-Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Massa sapien faucibus 
-et molestie ac. Augue mauris augue neque gravida in fermentum et. Dui faucibus in ornare 
-quam viverra orci. Turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet. Luctus 
-accumsan tortor posuere ac ut consequat semper viverra. Mi bibendum neque egestas 
-congue quisque egestas. Vitae suscipit tellus mauris a diam maecenas sed enim ut.\n
-Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Blandit libero volutpat
-sed cras ornare arcu dui vivamus arcu. Sapien pellentesque habitant morbi tristique 
-senectus et netus. Tempus quam pellentesque nec nam aliquam sem et tortor. Vehicula 
-ipsum a arcu cursus. Id volutpat lacus laoreet non curabitur gravida. Dui accumsan 
-sit amet nulla facilisi morbi tempus iaculis urna. Adipiscing elit duis tristique 
-sollicitudin. Ornare arcu odio ut sem nulla pharetra. Interdum consectetur libero 
-id faucibus nisl tincidunt eget. Magna ac placerat vestibulum lectus mauris ultrices 
-eros in cursus. Diam sit amet nisl suscipit adipiscing bibendum est ultricies 
-integer. Ornare lectus sit amet est placerat in egestas. Felis donec et odio 
-pellentesque diam volutpat commodo. Sed risus pretium quam vulputate dignissim 
-suspendisse. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus.\n;
+1.2 Eight Great Ideas in Computer Architecture
+
+We now introduce eight great ideas that computer architects have invented in the last 60 years of computer 
+design. These ideas are so powerful they have lasted long after the first computer that used them, with newer 
+architects demonstrating their admiration by imitating their predecessors. These great ideas are themes that 
+we will weave through this and subsequent chapters as examples arise. To point out their influence, in this 
+section we introduce icons and highlighted terms that represent the great ideas and we use them to identify 
+the nearly 100 sections of the book that feature use of the great ideas.
+Design for Moore’s Law
+The one constant for computer designers is rapid change, which is driven largely by Moore’s Law. It states 
+that integrated circuit resources double every 18–24 months. Moore’s Law resulted from a 1965 prediction of such 
+growth in IC capacity made by Gordon Moore, one of the founders of Intel. As computer designs can take years, the 
+resources available per chip can easily double or quadruple between the start and finish of the project. Like a 
+skeet shooter, computer architects must anticipate where the technology will be when the design finishes rather 
+than design for where it starts. We use an “up and to the right” Moore’s Law graph to represent designing for 
+rapid change.
+Use Abstraction to Simplify Design
+Both computer architects and programmers had to invent techniques to make themselves more productive, for 
+otherwise design time would lengthen as dramatically as resources grew by Moore’s Law. A major productivity 
+technique for hardware and software is to use abstractions to characterize the design at different levels of 
+representation; lower-level details are hidden to offer a simpler model at higher levels. We’ll use the 
+abstract painting icon to represent this second great idea.
+
+4.10 Parallelism via Instructions
+
+Be forewarned: this section is a brief overview of fascinating but complex topics. If you want to learn more 
+details, you should consult our more advanced book, Computer Architecture: A Quantitative Approach, fifth 
+edition, where the material covered in these 13 pages is expanded to almost 200 pages (including appendices)!
+
+Pipelining exploits the potential parallelism among instructions. This parallelism is called, naturally enough, 
+instruction-level parallelism (ILP). There are two primary methods for increasing the potential amount of 
+instruction-level parallelism. The first is increasing the depth of the pipeline to overlap more instructions. 
+Using our laundry analogy and assuming that the washer cycle was longer than the others were, we could divide 
+our washer into three machines that perform the wash, rinse, and spin steps of a traditional washer. We would 
+then move from a four-stage to a six-stage pipeline. To get the full speed-up, we need to rebalance the remaining 
+steps so they are the same length, in processors or in laundry. The amount of parallelism being exploited is 
+higher, since there are more operations being overlapped. Performance is potentially greater since the clock 
+cycle can be shorter.
+
+instruction-level parallelism
+
+The parallelism among instructions.
+Another approach is to replicate the internal components of the computer so that it can launch multiple instructions 
+in every pipeline stage. The general name for this technique is multiple issue. A multiple-issue laundry would 
+replace our household washer and dryer with, say, three washers and three dryers. You would also have to recruit 
+more assistants to fold and put away three times as much laundry in the same amount of time. The downside is the 
+extra work to keep all the machines busy and transferring the loads to the next pipeline stage.
+
+multiple issue
+
+A scheme whereby multiple instructions are launched in one clock cycle.
+
+Launching multiple instructions per stage allows the instruction execution rate to exceed the clock rate or, 
+stated alternatively, the CPI to be less than 1. As mentioned in Chapter 1, it is sometimes useful to flip the 
+metric and use IPC, or instructions per clock cycle. Hence, a 3- GHz four-way multiple-issue microprocessor can 
+execute a peak rate of 12 billion instructions per second and have a best-case CPI of 0.33, or an IPC of 3. 
+Assuming a five-stage pipeline, such a processor would have 15 instructions in execution at any given time. 
+Today’s high-end microprocessors attempt to issue from three to six instructions in every clock cycle. Even moderate 
+designs will aim at a peak IPC of 2. There are typically, however, many constraints on what types of instructions 
+may be executed simultaneously, and what happens when dependences arise.
+
+There are two main ways to implement a multiple-issue processor, with the major difference being the division of 
+work between the compiler and the hardware. Because the division of work dictates whether decisions are being made 
+statically (that is, at compile time) or dynamically (that is, during execution), the approaches are sometimes 
+called static multiple issue and dynamic multiple issue. As we will see, both approaches have other, more commonly 
+used names, which may be less precise or more restrictive.
