@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-    string s = "aab"; 
-    string p = "ab";
+    string s = "aaaaaaaaaaaab"; 
+    string p = "aaab";
 
     if(optimized_kmp(s, p))
         cout << "Pattern found\n";

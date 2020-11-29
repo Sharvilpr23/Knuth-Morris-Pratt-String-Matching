@@ -189,3 +189,10 @@ TEST_CASE("Test 12: Big Text, Full Match (Match)")
     string p = loremIpsum;
     REQUIRE(optimized_kmp(s, p) == true);
 }
+
+TEST_CASE("Test 13: match")
+{
+    string s = "aab"; 
+    string p = "ab";
+    REQUIRE(optimized_kmp(s, p) == true);
+}
