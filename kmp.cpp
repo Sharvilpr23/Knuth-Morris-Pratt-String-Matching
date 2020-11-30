@@ -42,7 +42,7 @@ bool optimized_kmp(string s, string p)
         }
         else if (j > 0)
         {
-            j = prefix_suffix_table[j];
+            j = prefix_suffix_table[j -1];
             i -= 1;
         }
 

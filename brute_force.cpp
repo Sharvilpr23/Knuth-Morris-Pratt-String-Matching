@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool kmp_brute_force(string s, string p)
+bool brute_force(string s, string p)
 {
     int match = 0;
     int i = 0;
