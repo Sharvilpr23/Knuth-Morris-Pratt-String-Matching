@@ -13,7 +13,7 @@ make
 ```
 ./tests
 ```
-# How to get rid of the .exe files
++ How to get rid of the .exe files
 ```
 make clean
 ```
