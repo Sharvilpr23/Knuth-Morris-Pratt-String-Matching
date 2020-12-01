@@ -98,56 +98,56 @@ TEST_CASE("Test 1: Empty String (Both)")
 {
     string s = "";
     string p = "";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 2: Empty pattern string")
 {
     string s = "a";
     string p = "";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 3: Empty original string")
 {
     string s = "";
     string p = "a";
-    REQUIRE(optimized_kmp(s, p) == false);
+    REQUIRE(kmp(s, p) == false);
 }
 
 TEST_CASE("Test 4: 1 character strings (match)")
 {
     string s = "a";
     string p = "a";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 5: 1 character strings (mismatch)")
 {
     string s = "a";
     string p = "b";
-    REQUIRE(optimized_kmp(s, p) == false);
+    REQUIRE(kmp(s, p) == false);
 }
 
 TEST_CASE("Test 6: match")
 {
     string s = "aaaab";
     string p = "aab";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 7: Festive (Match)")
 {
     string s = "All I want for christmas is youuuuuuu, baby";
     string p = "christmas";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 8: Partial Word Match (Match)")
 {
     string s = "All I want for christmas is youuuuuuu, baby";
     string p = "youuuu";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 9: Big Text, Full Match (Match)")
@@ -160,7 +160,7 @@ TEST_CASE("Test 9: Big Text, Full Match (Match)")
         " ultricies lacus. Neque viverra justo nec ultrices dui sapien eget mi proin. Ornare"
         " lectus sit amet est placerat in egestas erat. Nulla facilisi nullam vehicula ipsum"
         " a arcu cursus vitae congue. Urna et pharetra pharetra massa massa ultricies mi quis.\n";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 10: Big Text, One Character Mismatch (Mismatch)")
@@ -173,26 +173,26 @@ TEST_CASE("Test 10: Big Text, One Character Mismatch (Mismatch)")
         " ultricies lacus. Neque viverra justo nec ultrices dui sapien eget mi proin. Ornare"
         " lectus sit amet est placerat in egestas erat. Nulla facilisi nullam vehicula ipsum"
         " a arcu cursus vitae congue. Urna et pharetra pharetra massa massa ultricies mi quis.\n";
-    REQUIRE(optimized_kmp(s, p) == false);
+    REQUIRE(kmp(s, p) == false);
 }
 
 TEST_CASE("Test 11: Big Text, Empty Case (Mismatch)")
 {
     string s = loremIpsum;
     string p = "";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 12: Big Text, Full Match (Match)")
 {
     string s = loremIpsum;
     string p = loremIpsum;
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }
 
 TEST_CASE("Test 13: match")
 {
     string s = "aab"; 
     string p = "ab";
-    REQUIRE(optimized_kmp(s, p) == true);
+    REQUIRE(kmp(s, p) == true);
 }

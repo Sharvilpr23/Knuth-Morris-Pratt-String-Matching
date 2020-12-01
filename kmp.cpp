@@ -20,7 +20,7 @@ vector<int> find_prefix_suffix(string p) {
     return prefix_suffix_table;
 }
 
-bool optimized_kmp(string s, string p)
+bool kmp(string s, string p)
 {
     int i = 0;
     int j = 0;
