@@ -20,9 +20,10 @@ int main()
     chrono::steady_clock::time_point kmp_start = chrono::steady_clock::now();
     bool kmp_found = kmp(s, p);
     chrono::steady_clock::time_point kmp_end = chrono::steady_clock::now();
-    
+    if(brute_found && kmp_found) cout << "Pattern Found!" << endl;
+    else cout << "Pattern not found." << endl;   
     cout << "Time Elapsed: \n";
-    cout << "Brute: " << chrono::duration_cast<chrono::microseconds>(brute_end-brute_start).count() << " ms" << endl;
-    cout << "KMP: " << chrono::duration_cast<chrono::microseconds>(kmp_end-kmp_start).count() << " ms" << endl;
+    cout << "Brute: " << chrono::duration_cast<chrono::microseconds>(brute_end-brute_start).count() << " µs" << endl;
+    cout << "KMP: " << chrono::duration_cast<chrono::microseconds>(kmp_end-kmp_start).count() << " µs" << endl;
     return 0;
 }
